@@ -1,0 +1,67 @@
+
+
+
+
+                dashboard----angular project worlflow
+
+    1.(create new project)------ng new admin-dashboard (project-name)
+
+    2.run project:ng serve or ng s
+
+    3.install/import add third party libraries to complete project
+
+                    *     install angular material:ng add @angular/Material
+
+                           custom theme
+                           typology
+                           animation
+
+                            to use any componenet from material
+                                       copy the api for particular
+
+
+    4. delete all contents appcomponenet.html     
+
+     5.               to use any componenet from material
+                                       copy the api for particular component and paste it on appmodule.ts 
+                      eg:button;angular material->componenet->button->overview->
+                                              api->paste it in appmodule.ts 
+                                              import {MatButtonModule} from '@angular/material/button';
+
+     6. check third party libraries working in project or not
+             if not prebuild theme to your project style.css file
+             
+        header
+        footer
+        aside-sidebar
+
+        dashboard-inside  
+              card
+              area-chart
+              table
+              piechart
+        
+     7.Design new components
+
+           employee
+           gallery
+           contacts
+           leads
+
+      8.set up path for components and update
+
+            -dashboard
+            -employee
+            -gallery
+            -contacts
+            -leads           
+
+      9.parent-child data sharing
+
+               -child to parent communication       @Output decorator
+               -parent to child communication      @input decorator 
+
+      10.install highchart using npm install highcharts-angular --save
+         10.1 import high chart ::::: import { HighchartsChartModule } from 'highcharts-angular';
+         10.2 to get properties of high chart--- install :::: npm install highcharts --save  
+         10.3 importhigh chart in component where we will display chart                            

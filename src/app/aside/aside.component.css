@@ -1,0 +1,39 @@
+.profile{
+    text-align: center;
+
+}
+.profile img{
+width: 150px;
+height: 150px;
+object-fit: contain;
+}
+
+.profile h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+h2{
+    font-size: medium;
+    padding-left: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+}
+.pages a{
+    text-decoration: none;
+    height: 40px;
+    color: black;
+    padding: 10px 0 0 10px;
+
+}
+.pages a:hover{
+background-color: coral;
+}
+mat-icon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
